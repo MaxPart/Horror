@@ -12,6 +12,7 @@ height_base=pygame.display.Info().current_h
 window = pygame.display.set_mode((width_base,height_base))
 window.fill((32,0,56))
 
+
 r=pygame.Rect(100,100,int(width_base)-200,int(height_base)-200)
 pygame.draw.rect(window,(50,0,87),r,0)
 
