@@ -2,6 +2,8 @@ import pygame,sys
 import player
 pygame.init()
 Player=player.Player()
+pygame.display.set_caption("HorrorTubbies")
+icon = pygame.image.load('Images/icon.png')
 
 width_base=pygame.display.Info().current_w
 height_base=pygame.display.Info().current_h
