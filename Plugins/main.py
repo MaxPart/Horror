@@ -3,7 +3,7 @@ import player,pathlib
 pygame.init()
 Player=player.Player()
 pygame.display.set_caption("HorrorTubbies")
-icon = pygame.image.load(pathlib.Path('..','Images','Icon.png'))
+icon = pygame.image.load(pathlib.Path('..','Images','Icon.ico'))
 pygame.display.set_icon(icon)
 
 
